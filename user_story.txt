@@ -1,0 +1,11 @@
+PERSONA:
+- Oudere/minder-begaafde personen
+- Maakt vaak gebruik van het internet
+- Maakt zich zorgen over scammers/hackers
+
+SCENARIO:
+- Gebruiker krijgt een verdacht bericht
+- Gebruiker meld het bericht op de anti-scam-service
+- Gebruiker krijgt informatie over het bericht gebaseerd op informatie van eerdere gevallen
+- Anti-scam-service meld het geval zo nodig bij een authoriteit
+- Gebruiker behandeld het bericht op basis van de verkregen informatie
