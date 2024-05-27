@@ -6,6 +6,11 @@ PERSONA:
 SCENARIO:
 - Gebruiker krijgt een verdacht bericht
 - Gebruiker meld het bericht op de anti-scam-service
-- Gebruiker krijgt informatie over het bericht gebaseerd op informatie van eerdere gevallen
-- Anti-scam-service meld het geval zo nodig bij een authoriteit
+  - Gebruiker copiert het mail bericht in de Mail Body textfield
+  - Gebuiker kan de Sender opgeven
+  - Gebruiker klikt op de Check knop om de informatie op te sturen
+  - Server behandeld het bericht en geeft zo mogelijk direct een antwoord
+  - Als er een direct antwoord is krijgt de gebruiker informatie/instructies over het bericht gebaseerd op informatie van eerdere gevallen
+  - Als er geen direct antwoord is kan de gebruiker contact-gegevens achter laten zodat de server later een antwoord kan geven
+  - Anti-scam-service meld het geval zo nodig bij een authoriteit
 - Gebruiker behandeld het bericht op basis van de verkregen informatie
